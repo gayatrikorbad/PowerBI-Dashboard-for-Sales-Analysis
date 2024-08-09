@@ -1,0 +1,25 @@
+### Connect Power Query with Postgres Database on Azure for windows
+
+**Connection guidelines -** https://drive.google.com/file/d/1kUPD-pBqCAZhBagsCzvFqhkB4Y8RezOT/view?usp=sharing
+
+**Note : If you have stack builder already available in system downloaded, then search the “Application stack Builder” in your system and follow the step after timestamp 6:36 in video.**
+
+**Database Parameters** - 
+
+**server** : [learning-postgres.postgres.database.azure.com](http://learning-postgres.postgres.database.azure.com/) 
+
+**port** : 5432 
+
+**user** : student 
+
+**database :** ab_ds_m3
+
+**password** : 7JYdBauv
+
+**pg_hba :**
+
+host all all 0.0.0.0/0 md5
+
+**Postgres :**
+
+listen_addresses='*'
